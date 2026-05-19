@@ -17,42 +17,126 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Have a nice day! 😊
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+---
+
+I am a second-year M.Eng. student at [Tsinghua University](https://www.tsinghua.edu.cn/en/). Before that, I received my B.Eng. degree in Software Engineering from [Jilin University](https://www.jlu.edu.cn/) in 2024.
+
+<br>
+
+My research centers on **Large Language Models (LLMs)**, with a focus on code intelligence (generation, understanding, and vulnerability detection), long-context compression, and inference efficiency. I also have experience in **Data Mining** (user behavior modeling, recommendation systems) and **Computer Networks** (failure localization, intelligent routing). I am broadly interested in building reliable and efficient LLM systems that bridge natural language, code, and structured data.
+
+I have published papers at top venues including EMNLP, KDD, AAMAS, and Computer Networks. <a href='https://scholar.google.com.hk/citations?user=YKSeHjsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.03*: &nbsp;🎉🎉 "Benchmarking MLLM-based Web Understanding: Reasoning, Robustness and Safety" is accepted by **ICMR 2026**! See you in Amsterdam! 🇳🇱
+- *2025.09*: &nbsp;🎉🎉 "SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design" is accepted by **EMNLP 2025 (Oral)**! See you in Suzhou! 🇨🇳
+- *2024.05*: &nbsp;🎉🎉 "Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask" is accepted by **KDD 2024**! See you in Barcelona! 🇪🇸
+- *2024.01*: &nbsp;🎉🎉 "Themis: A passive-active hybrid framework with in-network intelligence for lightweight failure localization" is accepted by **Computer Networks 2024**!
+- *2023.01*: &nbsp;🎉🎉 "User Device Interaction Prediction via Relational Gated Graph Attention Network and Intent-aware Encoder" is accepted by **AAMAS 2023**! See you in London! 🇬🇧
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/slidecoder.png' alt="SlideCoder" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design](https://arxiv.org/abs/2506.07964)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**Wenxin Tang**, Jingyu Xiao, Xi Xiao, Wenxuan Jiang, Yuhang Wang, Qing Li, Xuxin Tang, Yuehe Ma, Junliang Liu, Shisong Tang, Michael R. Lyu. **EMNLP 2025 (Oral)**
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/efficientpostergen.png' alt="EfficientPosterGen" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EfficientPosterGen: Information Density-aware Retrieval and Token Compression for Efficient Academic Poster Generation](https://arxiv.org/abs/2603.00155)
+
+**Wenxin Tang**, Jingyu Xiao, Yanpei Gong, Fengyuan Ran, Tongchuan Xia, Junliang Liu, Man Ho Lam, Wenxuan Wang, Michael R. Lyu. **Under Review**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/dcvd.png' alt="DCVD" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization](https://arxiv.org/abs/2605.11015)
+
+**Wenxin Tang**, Wenbin Li, Junliang Liu, Jingyu Xiao, Xi Xiao, Mingzhe Liu, Jinlong Yang, Xuan Liu, Yuehe Ma, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Preprint*
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vultriage.png' alt="VulTriage" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VulTriage: Triple-Path Context Augmentation for LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.09461)
+
+**Wenxin Tang**, Xiang Zhang, Junliang Liu, Jingyu Xiao, Xi Xiao, Jinlong Yang, Yuehe Ma, Zhenyu Liu, Zhengheng Li, Zicheng Wang, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Preprint*
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2026</div><img src='images/webpai.png' alt="WebPAI" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Benchmarking MLLM-based Web Understanding: Reasoning, Robustness and Safety](https://arxiv.org/abs/2509.21782)
+
+Junliang Liu, Jingyu Xiao, **Wenxin Tang**, Zhixian Wang, Zipeng Xie, Wenxuan Wang, Minrui Zhang, Shuanghe Yu. **ICMR 2026**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2024</div><img src='images/kdd2024.png' alt="KDD2024" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask](https://dl.acm.org/doi/10.1145/3637528.3671708)
+
+Jingyu Xiao, Zhiyao Xu, Qingsong Zou, Qing Li, Dan Zhao, Dong Fang, Ruoyu Li, **Wenxin Tang**, Kang Li, Xudong Zuo, Penghui Hu, Yong Jiang, Zixuan Weng, Michael R. Lyu. **KDD 2024**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAMAS 2023</div><img src='images/aamas2023.png' alt="AAMAS2023" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[User Device Interaction Prediction via Relational Gated Graph Attention Network and Intent-aware Encoder](https://whalexiao.github.io/publications/AAMAS_2023_DeepUDI_Xiao.pdf)
+
+Jingyu Xiao, Qingsong Zou, Qing Li, Dan Zhao, Kang Li, **Wenxin Tang**, Runjie Zhou, Yong Jiang. **AAMAS 2023**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Computer Networks 2024</div><img src='images/themis.png' alt="Themis" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Themis: A passive-active hybrid framework with in-network intelligence for lightweight failure localization](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4604412)
+
+Qing Li, Jingyu Xiao, Dan Zhao, Xudong Zuo, **Wenxin Tang**, Yong Jiang. **Computer Networks 2024**
+</div>
+</div>
+
+# 🧑‍💻 Internships
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/tencent.png' alt="Tencent" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[WeChat Group](https://www.wechat.com/en) (WXG)
+
+**Video Platform Department, Research Intern**
+
+Participated in injecting world knowledge and reasoning capabilities of LLMs into the full pipeline of recommendation systems (LLM4Rec). Built cross-domain intent models using LLMs for user profiling and latent interest mining, applied to downstream U2I tasks to support routine inference for hundreds of millions of users. Also participated in constructing multimodal embeddings from live-streaming data using RQKMeans clustering to enhance live-streaming ID representations.
+
+*2025.01 - Present, Shenzhen, China*
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2021* **National Scholarship**, Ministry of Education of China (**Top 1.7%**)
+- *2025* Second Class Scholarship, Tsinghua University
+- *2022* Second Class Scholarship, Jilin University (Top 15%)
+- *2020, 2021, 2022* Outstanding Student, Jilin University (Top 5%)
+- *2020* First Class Scholarship, Jilin University (Top 5%)
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09 - 2027.06 (Expected)*, M.Eng. in Computer Technology, **Tsinghua University** (Recommended for Admission), GPA: 3.7/4.0
+- *2019.09 - 2024.06*, B.Eng. in Software Engineering, **Jilin University**, GPA: 3.66/4.0
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 💼 Academic Service
+- Sub-reviewer: KDD 2026
+- Conference Volunteer: EMNLP 2025
