@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Have a nice day! 😊
+## Have a nice day! 😊
 
 ---
 
@@ -27,7 +27,7 @@ I am a second-year M.Eng. student at [Tsinghua University](https://www.tsinghua.
 
 My research centers on **Large Language Models (LLMs)**, with a focus on code intelligence (generation, understanding, and vulnerability detection), long-context compression, and inference efficiency. I also have experience in **Data Mining** (user behavior modeling, recommendation systems) and **Computer Networks** (failure localization, intelligent routing). I am broadly interested in building reliable and efficient LLM systems that bridge natural language, code, and structured data.
 
-I have published papers at top venues including EMNLP, KDD, AAMAS, and Computer Networks. <a href='https://scholar.google.com.hk/citations?user=YKSeHjsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+If you are interested in my work, please feel free to drop me an <a href="mailto:vinsontang2126@gmail.com">email</a>. <a href='https://scholar.google.com.hk/citations?user=YKSeHjsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 # 🔥 News
@@ -53,25 +53,25 @@ I have published papers at top venues including EMNLP, KDD, AAMAS, and Computer 
 
 [EfficientPosterGen: Information Density-aware Retrieval and Token Compression for Efficient Academic Poster Generation](https://arxiv.org/abs/2603.00155)
 
-**Wenxin Tang**, Jingyu Xiao, Yanpei Gong, Fengyuan Ran, Tongchuan Xia, Junliang Liu, Man Ho Lam, Wenxuan Wang, Michael R. Lyu. **Under Review**
+**Wenxin Tang**, Jingyu Xiao, Yanpei Gong, Fengyuan Ran, Tongchuan Xia, Junliang Liu, Man Ho Lam, Wenxuan Wang, Michael R. Lyu. *Under Review*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/dcvd.png' alt="DCVD" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/dcvd.png' alt="DCVD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization](https://arxiv.org/abs/2605.11015)
 
-**Wenxin Tang**, Wenbin Li, Junliang Liu, Jingyu Xiao, Xi Xiao, Mingzhe Liu, Jinlong Yang, Xuan Liu, Yuehe Ma, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Preprint*
+**Wenxin Tang**, Wenbin Li, Junliang Liu, Jingyu Xiao, Xi Xiao, Mingzhe Liu, Jinlong Yang, Xuan Liu, Yuehe Ma, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Under Review*
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vultriage.png' alt="VulTriage" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/vultriage.png' alt="VulTriage" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [VulTriage: Triple-Path Context Augmentation for LLM-Based Vulnerability Detection](https://arxiv.org/abs/2605.09461)
 
-**Wenxin Tang**, Xiang Zhang, Junliang Liu, Jingyu Xiao, Xi Xiao, Jinlong Yang, Yuehe Ma, Zhenyu Liu, Zhengheng Li, Zicheng Wang, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Preprint*
+**Wenxin Tang**, Xiang Zhang, Junliang Liu, Jingyu Xiao, Xi Xiao, Jinlong Yang, Yuehe Ma, Zhenyu Liu, Zhengheng Li, Zicheng Wang, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Under Review*
 </div>
 </div>
 
@@ -129,9 +129,10 @@ Participated in injecting world knowledge and reasoning capabilities of LLMs int
 # 🎖 Honors and Awards
 - *2021* **National Scholarship**, Ministry of Education of China (**Top 1.7%**)
 - *2025* Second Class Scholarship, Tsinghua University
-- *2022* Second Class Scholarship, Jilin University (Top 15%)
-- *2020, 2021, 2022* Outstanding Student, Jilin University (Top 5%)
 - *2020* First Class Scholarship, Jilin University (Top 5%)
+- *2020* Outstanding Student, Jilin University (Top 5%)
+- *2021* Outstanding Student, Jilin University (Top 5%)
+- *2022* Outstanding Student, Jilin University (Top 5%)
 
 # 📖 Educations
 - *2024.09 - 2027.06 (Expected)*, M.Eng. in Computer Technology, **Tsinghua University** (Recommended for Admission), GPA: 3.7/4.0
@@ -140,3 +141,9 @@ Participated in injecting world knowledge and reasoning capabilities of LLMs int
 # 💼 Academic Service
 - Sub-reviewer: KDD 2026
 - Conference Volunteer: EMNLP 2025
+
+---
+
+<div align="center">
+  <strong><em>No matter how fierce the storm, I will never ever give up. @Wenxin Tang</em></strong>
+</div>
