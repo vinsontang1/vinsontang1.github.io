@@ -42,7 +42,7 @@ If you are interested in my work, please feel free to drop me an <a href="mailto
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/slidecoder.png' alt="SlideCoder" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design](https://arxiv.org/abs/2506.07964)
+[SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design](https://aclanthology.org/2025.emnlp-main.458/)
 
 **Wenxin Tang**, Jingyu Xiao, Xi Xiao, Wenxuan Jiang, Yuhang Wang, Qing Li, Xuxin Tang, Yuehe Ma, Junliang Liu, Shisong Tang, Michael R. Lyu. **EMNLP 2025 (Oral)**
 </div>
@@ -135,7 +135,7 @@ Participated in injecting world knowledge and reasoning capabilities of LLMs int
 - *2022* Outstanding Student, Jilin University (Top 5%)
 
 # 📖 Educations
-- *2024.09 - 2027.06 (Expected)*, M.Eng. in Computer Technology, **Tsinghua University** (Recommended for Admission), GPA: 3.7/4.0
+- *2024.09 - 2027.06 (Expected)*, M.Eng. in Computer Technology, **Tsinghua University (Recommended for Admission)**, GPA: 3.7/4.0
 - *2019.09 - 2024.06*, B.Eng. in Software Engineering, **Jilin University**, GPA: 3.66/4.0
 
 # 💼 Academic Service
