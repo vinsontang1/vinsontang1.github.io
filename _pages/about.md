@@ -21,16 +21,18 @@ redirect_from:
 
 ---
 
-I am a second-year M.Eng. student at [Tsinghua University](https://www.tsinghua.edu.cn/en/). Before that, I received my B.Eng. degree in Software Engineering from [Jilin University](https://www.jlu.edu.cn/) in 2024.
+I am a third-year M.Eng. student at [Tsinghua University](https://www.tsinghua.edu.cn/en/). Before that, I received my B.Eng. degree in Software Engineering from [Jilin University](https://www.jlu.edu.cn/) in 2024.
 
 <br>
 
-My research centers on **Large Language Models (LLMs)**, with a focus on code intelligence (generation, understanding, and vulnerability detection), long-context compression, and inference efficiency. I also have experience in **Data Mining** (user behavior modeling, recommendation systems) and **Computer Networks** (failure localization, intelligent routing). I am broadly interested in building reliable and efficient LLM systems that bridge natural language, code, and structured data.
+My research centers on **Large Language Models (LLMs)**, with a focus on language and structured generation (slides, posters, code), efficient LLMs (long-context and visual token compression), and code intelligence (understanding and vulnerability detection). I also have experience in **Data Mining** (user behavior modeling, recommendation systems) and **Computer Networks** (failure localization, intelligent routing). I am broadly interested in building reliable and efficient LLM systems that bridge natural language, code, and structured data.
 
 If you are interested in my work, please feel free to drop me an <a href="mailto:vinsontang2126@gmail.com">email</a>. <a href='https://scholar.google.com.hk/citations?user=YKSeHjsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉🎉 "DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization" is accepted by **NeurIPS 2026**! I also received the **NeurIPS 2026 Financial Assistance Award**.
+- *2026.07*: &nbsp;📄 "CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding" is released on [arXiv](https://arxiv.org/abs/2607.29637).
 - *2026.03*: &nbsp;🎉🎉 "Benchmarking MLLM-based Web Understanding: Reasoning, Robustness and Safety" is accepted by **ICMR 2026**! See you in Amsterdam! 🇳🇱
 - *2025.09*: &nbsp;🎉🎉 "SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design" is accepted by **EMNLP 2025 (Oral)**! See you in Suzhou! 🇨🇳
 - *2024.05*: &nbsp;🎉🎉 "Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask" is accepted by **KDD 2024**! See you in Barcelona! 🇪🇸
@@ -48,21 +50,30 @@ If you are interested in my work, please feel free to drop me an <a href="mailto
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/dcvd.png' alt="DCVD" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization](https://arxiv.org/abs/2605.11015)
+
+**Wenxin Tang**, Wenbin Li, Junliang Liu, Jingyu Xiao, Xi Xiao, Mingzhe Liu, Jinlong Yang, Xuan Liu, Yuehe Ma, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. **NeurIPS 2026**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/codeshrink.png' alt="CodeShrink" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding](https://arxiv.org/abs/2607.29637)
+
+**Wenxin Tang**, Jingyu Xiao, Zhenyu Liu, Zipeng Xie, Junliang Liu, Wang Luo, Yuan Jiang, Yintong Huo, Michael Lyu. *Under Review*
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/efficientpostergen.png' alt="EfficientPosterGen" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [EfficientPosterGen: Information Density-aware Retrieval and Token Compression for Efficient Academic Poster Generation](https://arxiv.org/abs/2603.00155)
 
 **Wenxin Tang**, Jingyu Xiao, Yanpei Gong, Fengyuan Ran, Tongchuan Xia, Junliang Liu, Man Ho Lam, Wenxuan Wang, Michael R. Lyu. *Under Review*
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/dcvd.png' alt="DCVD" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization](https://arxiv.org/abs/2605.11015)
-
-**Wenxin Tang**, Wenbin Li, Junliang Liu, Jingyu Xiao, Xi Xiao, Mingzhe Liu, Jinlong Yang, Xuan Liu, Yuehe Ma, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. *Under Review*
 </div>
 </div>
 
@@ -128,6 +139,7 @@ Participated in injecting world knowledge and reasoning capabilities of LLMs int
 
 # 🎖 Honors and Awards
 - *2021* **National Scholarship**, Ministry of Education of China (**Top 1.7%**)
+- *2026* **NeurIPS 2026 Financial Assistance Award**
 - *2025* Second Class Scholarship, Tsinghua University
 - *2020* First Class Scholarship, Jilin University (Top 5%)
 - *2020* Outstanding Student, Jilin University (Top 5%)
