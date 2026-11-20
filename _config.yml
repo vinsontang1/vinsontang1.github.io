@@ -9,7 +9,7 @@
 title                    : "Wenxin Tang (唐文鑫)"
 description              : "M.Eng. student at Tsinghua University. Research on LLMs (code intelligence, long-context compression, efficiency), data mining, and computer networks."
 repository               : "vinsontang1/vinsontang1.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

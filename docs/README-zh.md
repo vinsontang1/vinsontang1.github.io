@@ -37,8 +37,8 @@ AcadHomepage
 1. Fork本仓库到`USERNAME/USERNAME.github.io`，其中`USERNAME`是你的github用户名。
 1. 配置谷歌学术引用爬虫：
     1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。
-    1. 在github本仓库页面的`Settings -> Secrets -> Actions -> New repository secret`中，添加`GOOGLE_SCHOLAR_ID`变量：`name=GOOGLE_SCHOLAR_ID`、`value=SCHOLAR_ID`。
-    1. 在github本仓库页面的`Action`中，点击*"I understand my workflows, go ahead and enable them"*启用workflows by clicking *"。本action将会谷歌学术引用的统计量数据`gs_data.json`到本仓库的`google-scholar-stats`分支中。每次修改main分支的内容会触发该action。本action也会在每天08:00 UTC定时触发。
+    1. 将 `_config.yml` 中的 `author.googlescholar` 设置为你的公开学术主页地址。可选的 Actions 密钥 `GOOGLE_SCHOLAR_ID` 可以覆盖该地址中的用户 ID。
+    1. 在 **Actions** 中启用 **Get Citation Data**。Fork 仓库也需要启用定时工作流。工作流每天 08:00 UTC 以及 main 分支中的爬虫、配置或工作流发生变更时刷新 `google-scholar-stats` 分支，也可以点击 **Run workflow** 手动刷新。主页会显示最近一次成功更新的日期。
 1. 使用 [favicon-generator](https://redketchup.io/favicon-generator)生成favicon（网页icon文件），并下载所有文件到`REPO/images`。
 1. 修改主页配置文件[_config.yml](../_config.yml):
     1. `title`: 主页标题

@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 ## Have a nice day! 😊
@@ -27,12 +20,13 @@ I am a third-year M.Eng. student at [Tsinghua University](https://www.tsinghua.e
 
 My research centers on **Large Language Models (LLMs)**, with a focus on language and structured generation (slides, posters, code), efficient LLMs (long-context and visual token compression), and code intelligence (understanding and vulnerability detection). I also have experience in **Data Mining** (user behavior modeling, recommendation systems) and **Computer Networks** (failure localization, intelligent routing). I am broadly interested in building reliable and efficient LLM systems that bridge natural language, code, and structured data.
 
-If you are interested in my work, please feel free to drop me an <a href="mailto:vinsontang2126@gmail.com">email</a>. <a href='https://scholar.google.com.hk/citations?user=YKSeHjsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+If you are interested in my work, please feel free to drop me an <a href="mailto:vinsontang2126@gmail.com">email</a>. <a href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar<span id="scholar-citations" hidden> · <span id="total_cit"></span> citations<span id="citation-date"></span></span></a>
 
 
 # 🔥 News
-- *2026.09*: &nbsp;🎉🎉 "DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization" is accepted by **NeurIPS 2026**! I also received the **NeurIPS 2026 Financial Assistance Award**.
-- *2026.07*: &nbsp;📄 "CodeShrink: Adaptive Visual Compression for Efficient Multimodal Code Understanding" is released on [arXiv](https://arxiv.org/abs/2607.29637).
+- *2026.10*: &nbsp;🎉🎉 "[Format as Nuisance: Intervention-Inspired Cross-Format Distillation for Knowledge Conflicts](https://aclanthology.org/2026.emnlp-main.2028/)" received an <a href="https://2026.emnlp.org/program/awards_papers/#outstanding-papers"><strong class="paper-award">🏆 Outstanding Paper</strong></a> award at **EMNLP 2026**! See you in Budapest! 🇭🇺
+- *2026.09*: &nbsp;🎉🎉 "DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization" is accepted by **NeurIPS 2026**! I also received the **NeurIPS 2026 Financial Assistance Award**. See you in Sydney! 🇦🇺
+- *2026.08*: &nbsp;🎉🎉 "[HomeGuardian: Detecting Behavioral Anomalies Through Implicit Profiling in Smart Home Systems](https://ieeexplore.ieee.org/document/11676248/)" is accepted by **IEEE Transactions on Mobile Computing**!
 - *2026.03*: &nbsp;🎉🎉 "Benchmarking MLLM-based Web Understanding: Reasoning, Robustness and Safety" is accepted by **ICMR 2026**! See you in Amsterdam! 🇳🇱
 - *2025.09*: &nbsp;🎉🎉 "SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design" is accepted by **EMNLP 2025 (Oral)**! See you in Suzhou! 🇨🇳
 - *2024.05*: &nbsp;🎉🎉 "Make Your Home Safe: Time-aware Unsupervised User Behavior Anomaly Detection in Smart Homes via Loss-guided Mask" is accepted by **KDD 2024**! See you in Barcelona! 🇪🇸
@@ -41,21 +35,21 @@ If you are interested in my work, please feel free to drop me an <a href="mailto
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/slidecoder.png' alt="SlideCoder" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design](https://aclanthology.org/2025.emnlp-main.458/)
-
-**Wenxin Tang**, Jingyu Xiao, Xi Xiao, Wenxuan Jiang, Yuhang Wang, Qing Li, Xuxin Tang, Yuehe Ma, Junliang Liu, Shisong Tang, Michael R. Lyu. **EMNLP 2025 (Oral)**
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/dcvd.png' alt="DCVD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DCVD: Dual-Channel Cross-Modal Fusion for Joint Vulnerability Detection and Localization](https://arxiv.org/abs/2605.11015)
 
 **Wenxin Tang**, Wenbin Li, Junliang Liu, Jingyu Xiao, Xi Xiao, Mingzhe Liu, Jinlong Yang, Xuan Liu, Yuehe Ma, Wang Luo, Qing Li, Lei Wang, Peng Xiangli. **NeurIPS 2026**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025 Oral</div><img src='images/slidecoder.png' alt="SlideCoder" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SlideCoder: Layout-aware RAG-enhanced Hierarchical Slide Generation from Design](https://aclanthology.org/2025.emnlp-main.458/)
+
+**Wenxin Tang**, Jingyu Xiao, Xi Xiao, Wenxuan Jiang, Yuhang Wang, Qing Li, Xuxin Tang, Yuehe Ma, Junliang Liu, Shisong Tang, Michael R. Lyu. **EMNLP 2025 (Oral)**
 </div>
 </div>
 
@@ -68,15 +62,6 @@ If you are interested in my work, please feel free to drop me an <a href="mailto
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/efficientpostergen.png' alt="EfficientPosterGen" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[EfficientPosterGen: Information Density-aware Retrieval and Token Compression for Efficient Academic Poster Generation](https://arxiv.org/abs/2603.00155)
-
-**Wenxin Tang**, Jingyu Xiao, Yanpei Gong, Fengyuan Ran, Tongchuan Xia, Junliang Liu, Man Ho Lam, Wenxuan Wang, Michael R. Lyu. *Under Review*
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/vultriage.png' alt="VulTriage" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -86,12 +71,21 @@ If you are interested in my work, please feel free to drop me an <a href="mailto
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2026</div><img src='images/webpai.png' alt="WebPAI" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/efficientpostergen.png' alt="EfficientPosterGen" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Benchmarking MLLM-based Web Understanding: Reasoning, Robustness and Safety](https://arxiv.org/abs/2509.21782)
+[EfficientPosterGen: Information Density-aware Retrieval and Token Compression for Efficient Academic Poster Generation](https://arxiv.org/abs/2603.00155)
 
-Junliang Liu, Jingyu Xiao, **Wenxin Tang**, Zhixian Wang, Zipeng Xie, Wenxuan Wang, Minrui Zhang, Shuanghe Yu. **ICMR 2026**
+**Wenxin Tang**, Jingyu Xiao, Yanpei Gong, Fengyuan Ran, Tongchuan Xia, Junliang Liu, Man Ho Lam, Wenxuan Wang, Michael R. Lyu. *Under Review*
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/fade.png' alt="FaDe" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Format as Nuisance: Intervention-Inspired Cross-Format Distillation for Knowledge Conflicts](https://aclanthology.org/2026.emnlp-main.2028/)
+
+Yue Yu, Wang Luo, Shenghao Ye, Zepeng Bao, Jiacheng Liu, Yongqi Li, **Wenxin Tang**, Tieyun Qian. **EMNLP 2026** · <strong class="paper-award">🏆 Outstanding Paper</strong>
 </div>
 </div>
 
@@ -104,12 +98,30 @@ Jingyu Xiao, Zhiyao Xu, Qingsong Zou, Qing Li, Dan Zhao, Dong Fang, Ruoyu Li, **
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TMC 2026</div><img src='images/homeguardian.png' alt="HomeGuardian" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[HomeGuardian: Detecting Behavioral Anomalies Through Implicit Profiling in Smart Home Systems](https://ieeexplore.ieee.org/document/11676248/)
+
+Qingsong Zou, Zhiyao Xu, Jingyu Xiao, Qing Li, Dan Zhao, Ruoyu Li, **Wenxin Tang**, Kang Li, Xudong Zuo, Yong Jiang, Michael R. Lyu. **IEEE Transactions on Mobile Computing (TMC 2026)**
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAMAS 2023</div><img src='images/aamas2023.png' alt="AAMAS2023" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [User Device Interaction Prediction via Relational Gated Graph Attention Network and Intent-aware Encoder](https://whalexiao.github.io/publications/AAMAS_2023_DeepUDI_Xiao.pdf)
 
 Jingyu Xiao, Qingsong Zou, Qing Li, Dan Zhao, Kang Li, **Wenxin Tang**, Runjie Zhou, Yong Jiang. **AAMAS 2023**
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2026</div><img src='images/webpai.png' alt="WebPAI" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Benchmarking MLLM-based Web Understanding: Reasoning, Robustness and Safety](https://arxiv.org/abs/2509.21782)
+
+Junliang Liu, Jingyu Xiao, **Wenxin Tang**, Zhixian Wang, Zipeng Xie, Wenxuan Wang, Minrui Zhang, Shuanghe Yu. **ICMR 2026**
 </div>
 </div>
 

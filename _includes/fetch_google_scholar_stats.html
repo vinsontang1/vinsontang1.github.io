@@ -1,19 +1,36 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
-    })
+  (async function () {
+    const raw = "https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json";
+    const cdn = "https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json";
+    const sources = {% if site.google_scholar_stats_use_cdn %}[cdn, raw]{% else %}[raw, cdn]{% endif %};
+    const total = document.getElementById("total_cit");
+    const papers = document.querySelectorAll(".show_paper_citations");
+    if (!total && !papers.length) return;
+
+    for (const url of sources) {
+      try {
+        const response = await fetch(url, {cache: "no-cache"});
+        if (!response.ok) continue;
+        const data = await response.json();
+        if (!Number.isInteger(data.citedby) || data.citedby < 0) continue;
+
+        if (total) total.textContent = data.citedby;
+        const date = document.getElementById("citation-date");
+        const updated = /^(\d{4}-\d{2}-\d{2})/.exec(data.updated || "");
+        if (date && updated) date.textContent = " (as of " + updated[1] + ")";
+        const badge = document.getElementById("scholar-citations");
+        if (badge) badge.hidden = false;
+
+        for (const paper of papers) {
+          const record = (data.publications || {})[paper.getAttribute("data")];
+          if (record && Number.isInteger(record.num_citations)) {
+            paper.textContent = "| Citations: " + record.num_citations;
+          }
+        }
+        return;
+      } catch {
+        // Try the alternate host when this one is unavailable.
+      }
+    }
+  })();
 </script>
