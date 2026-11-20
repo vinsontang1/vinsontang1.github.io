@@ -34,7 +34,11 @@ jobs:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         run: |
           python -m pip install -r google_scholar_crawler/requirements.txt
-          python google_scholar_crawler/main.py
+          set -o pipefail
+          python google_scholar_crawler/main.py 2>&1 | tee "$RUNNER_TEMP/scholar.log" || {
+            echo "::error::$(tail -n 1 "$RUNNER_TEMP/scholar.log")"
+            exit 1
+          }
       - name: Publish citation data
         run: |
           output="$RUNNER_TEMP/citation-results"

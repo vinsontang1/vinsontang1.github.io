@@ -1,11 +1,14 @@
 import json
+import logging
 import os
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
+from urllib.request import urlopen
 
 import yaml
-from scholarly import scholarly
+from bs4 import BeautifulSoup
+from scholarly.author_parser import AuthorParser
 
 
 def profile_id():
@@ -16,10 +19,24 @@ def profile_id():
     return parse_qs(urlparse(config["author"]["googlescholar"]).query)["user"][0]
 
 
+class ProfilePages:
+    """Fetch each public profile page once so access errors reach the job log."""
+
+    logger = logging.getLogger(__name__)
+
+    def _get_soup(self, path):
+        with urlopen("https://scholar.google.com" + path, timeout=30) as response:
+            page = BeautifulSoup(response.read(), "html.parser")
+        if not page.select_one("#gsc_prf_in"):
+            raise ValueError("Google Scholar did not return a public author profile")
+        return page
+
+
 def main():
     scholar_id = profile_id()
-    author = scholarly.search_author_id(scholar_id)
-    scholarly.fill(author, sections=["indices", "counts", "publications"])
+    parser = AuthorParser(ProfilePages())
+    author = parser.fill(parser.get_author(scholar_id),
+                         sections=["basics", "indices", "counts", "publications"])
     total = author.get("citedby")
     if author.get("scholar_id") != scholar_id or type(total) is not int or total < 0:
         raise ValueError("Google Scholar returned an incomplete citation profile")
