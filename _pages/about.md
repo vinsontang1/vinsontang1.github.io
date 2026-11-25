@@ -136,14 +136,16 @@ Qing Li, Jingyu Xiao, Dan Zhao, Xudong Zuo, **Wenxin Tang**, Yong Jiang. **Compu
 
 # 🧑‍💻 Internships
 
-<div class="paper-box"><div markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div style="width: 350px; max-width: 100%"><div class="badge">Baidu</div><img src='images/baidu.jpg' alt="Baidu" width="100%" style="aspect-ratio: 350 / 144"></div></div>
+<div class='paper-box-text' markdown="1">
 
 **Baidu · ERNIE Large Model Team**
 
 I work on trajectory distillation for agents that generate office documents, turning design experience into guidelines the agents can retrieve. I also refine slide animations and compare approaches to generating presentations.
 
 *2026.09 – Present*
-</div></div>
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/tencent.png' alt="Tencent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -160,8 +162,9 @@ Participated in injecting world knowledge and reasoning capabilities of LLMs int
 
 # 🎖 Honors and Awards
 - *2021* **National Scholarship**, Ministry of Education of China (**Top 1.7%**)
-- *2026* **NeurIPS 2026 Financial Assistance Award**
+- *2026* **[EMNLP 2026 Outstanding Paper](https://2026.emnlp.org/program/awards_papers/#outstanding-papers)**, *Format as Nuisance*
 - *2025* Second Class Scholarship, Tsinghua University
+- *2026* **NeurIPS 2026 Financial Assistance Award**
 - *2020* First Class Scholarship, Jilin University (Top 5%)
 - *2020* Outstanding Student, Jilin University (Top 5%)
 - *2021* Outstanding Student, Jilin University (Top 5%)
@@ -172,7 +175,7 @@ Participated in injecting world knowledge and reasoning capabilities of LLMs int
 - *2019.09 - 2024.06*, B.Eng. in Software Engineering, **Jilin University**, GPA: 3.66/4.0
 
 # 💼 Academic Service
-- Sub-reviewer: KDD 2026
+- Reviewer: KDD 2026, ACL 2027
 - Conference Volunteer: EMNLP 2025
 
 <div style="width: 85%; margin: 0 auto;">
