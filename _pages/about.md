@@ -141,6 +141,8 @@ Qing Li, Jingyu Xiao, Dan Zhao, Xudong Zuo, **Wenxin Tang**, Yong Jiang. **Compu
 
 **Baidu · [ERNIE Large Model Team](https://ernie.baidu.com/)**
 
+**Research Intern**
+
 I work on trajectory distillation for agents that generate office documents, turning design experience into guidelines the agents can retrieve. I also refine slide animations and compare approaches to generating presentations.
 
 *2026.09 – Present*
