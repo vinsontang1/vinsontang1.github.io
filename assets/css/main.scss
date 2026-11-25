@@ -111,3 +111,33 @@ h1:before, .anchor:before {
 .paper-award {
     color: #b21e2b;
 }
+
+.page__content a.scholar-badge {
+    display: inline-flex;
+    align-items: stretch;
+    overflow: hidden;
+    vertical-align: middle;
+    border-radius: 3px;
+    color: #333;
+    font: 11px/20px Verdana, sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.scholar-badge__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 5px;
+    background: #f6f6f6;
+
+    .ai-google-scholar {
+        color: #4285f4;
+        font-size: 14px;
+    }
+}
+
+#scholar-citation-count {
+    padding: 0 5px;
+    background: #9cf;
+}

@@ -20,7 +20,7 @@ I am a third-year M.Eng. student at [Tsinghua University](https://www.tsinghua.e
 
 My research centers on **Large Language Models (LLMs)**, with a focus on language and structured generation (slides, posters, code), efficient LLMs (long-context and visual token compression), and code intelligence (understanding and vulnerability detection). I also have experience in **Data Mining** (user behavior modeling, recommendation systems) and **Computer Networks** (failure localization, intelligent routing). I am broadly interested in building reliable and efficient LLM systems that bridge natural language, code, and structured data.
 
-If you are interested in my work, please feel free to drop me an <a href="mailto:vinsontang2126@gmail.com">email</a>. <a href="{{ site.author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar<span id="scholar-citations" hidden> · <span id="total_cit"></span> citations<span id="citation-date"></span></span></a>
+If you are interested in my work, please feel free to drop me an <a href="mailto:vinsontang2126@gmail.com">email</a>. <a class="scholar-badge" href="{{ site.author.googlescholar }}"><span class="scholar-badge__label"><i class="ai ai-google-scholar" aria-hidden="true"></i><span class="visually-hidden">Google Scholar </span>citations</span> <span id="scholar-citation-count">125</span></a>
 
 
 # 🔥 News
@@ -136,6 +136,15 @@ Qing Li, Jingyu Xiao, Dan Zhao, Xudong Zuo, **Wenxin Tang**, Yong Jiang. **Compu
 
 # 🧑‍💻 Internships
 
+<div class="paper-box"><div markdown="1">
+
+**Baidu · ERNIE Large Model Team**
+
+I work on trajectory distillation for agents that generate office documents, turning design experience into guidelines the agents can retrieve. I also refine slide animations and compare approaches to generating presentations.
+
+*2026.09 – Present*
+</div></div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/tencent.png' alt="Tencent" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -145,7 +154,7 @@ Qing Li, Jingyu Xiao, Dan Zhao, Xudong Zuo, **Wenxin Tang**, Yong Jiang. **Compu
 
 Participated in injecting world knowledge and reasoning capabilities of LLMs into the full pipeline of recommendation systems (LLM4Rec). Built cross-domain intent models using LLMs for user profiling and latent interest mining, applied to downstream U2I tasks to support routine inference for hundreds of millions of users. Also participated in constructing multimodal embeddings from live-streaming data using RQKMeans clustering to enhance live-streaming ID representations.
 
-*2025.01 - Present, Shenzhen, China*
+*2025.08 – 2026.08, Shenzhen, China*
 </div>
 </div>
 
