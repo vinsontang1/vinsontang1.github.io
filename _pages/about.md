@@ -150,7 +150,7 @@ I work on trajectory distillation for agents that generate office documents, tur
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/wechat.svg' alt="WeChat" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[WeChat Group](https://www.wechat.com/en) (WXG)
+Tencent **·** [WeChat Group](https://www.wechat.com/en) (WXG)
 
 **Video Platform Department, Research Intern**
 
