@@ -14,7 +14,7 @@ redirect_from:
 
 ---
 
-I am a third-year M.Eng. student at [Tsinghua University](https://www.tsinghua.edu.cn/en/). Before that, I received my B.Eng. degree in Software Engineering from [Jilin University](https://www.jlu.edu.cn/) in 2024.
+I am a third-year M.Eng. student at [Tsinghua University](https://www.tsinghua.edu.cn/en/) and an incoming Ph.D. student in [Computer Science and Engineering](https://www.cse.cuhk.edu.hk/) at The Chinese University of Hong Kong (CUHK). I received my B.Eng. degree in Software Engineering from [Jilin University](https://www.jlu.edu.cn/) in 2024.
 
 <br>
 
