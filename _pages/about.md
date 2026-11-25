@@ -139,7 +139,7 @@ Qing Li, Jingyu Xiao, Dan Zhao, Xudong Zuo, **Wenxin Tang**, Yong Jiang. **Compu
 <div class='paper-box'><div class='paper-box-image'><div style="width: 350px; max-width: 100%"><div class="badge">Baidu</div><img src='images/baidu.jpg' alt="Baidu" width="100%" style="aspect-ratio: 350 / 144"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Baidu · ERNIE Large Model Team**
+**Baidu · [ERNIE Large Model Team](https://ernie.baidu.com/)**
 
 I work on trajectory distillation for agents that generate office documents, turning design experience into guidelines the agents can retrieve. I also refine slide animations and compare approaches to generating presentations.
 
@@ -147,7 +147,7 @@ I work on trajectory distillation for agents that generate office documents, tur
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/tencent.png' alt="Tencent" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tencent</div><img src='images/wechat.svg' alt="WeChat" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [WeChat Group](https://www.wechat.com/en) (WXG)
